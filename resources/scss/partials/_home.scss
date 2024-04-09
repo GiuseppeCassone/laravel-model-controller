@@ -1,0 +1,26 @@
+
+.container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+    h1{
+        color: black;
+        font-size: 50px;
+        text-shadow: 4px 4px #0282F9;
+    }
+    
+    .row{
+        gap: 20px;
+        
+        .card{
+            width: calc(100% / 2 - 20px);
+            box-shadow: 4px 4px #0282f97d;
+
+            h5, strong{
+                color: #0282F9;
+            }
+        }
+    }
+}
+
