@@ -9,8 +9,8 @@
     <div class="row flex-wrap">
 
         @foreach($movies as $movie)
-        <div class="card align-items-center">
-            <img src="..." class="card-img-top" alt="...">
+        <div class="card align-items-center p-0">
+            <img src="{{ $movie->poster }}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">TITOLO: {{ $movie->title }}</h5>
                 <p class="card-text"><strong>TITOLO ORIGINALE: </strong>{{ $movie->original_title}}</p>

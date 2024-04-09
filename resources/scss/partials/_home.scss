@@ -6,7 +6,7 @@
 
     h1{
         color: black;
-        font-size: 50px;
+        font-size: 80px;
         text-shadow: 4px 4px #0282F9;
     }
     
@@ -15,10 +15,27 @@
         
         .card{
             width: calc(100% / 2 - 20px);
-            box-shadow: 4px 4px #0282f97d;
+            // box-shadow: 4px 4px #0282f97d;
+
+            img{
+               width: 100%; 
+               height: 800px;
+               object-fit: cover;
+            }
 
             h5, strong{
                 color: #0282F9;
+            }
+
+        }
+
+        .card:hover{
+            box-shadow: 5px 5px blue;
+            transition: all 0.5s;
+
+            h5, strong{
+                color: blue;
+                transition: all 0.5s;
             }
         }
     }
